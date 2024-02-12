@@ -1,0 +1,26 @@
+section{
+    padding: 75px 0px;
+}
+
+/* home page */
+
+@media (min-width: 992px) {
+    .rounded-lg-3 { border-radius: .3rem; }
+}
+#highlight-card,
+#faqs-container{
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.15);
+    transition: all 0.4s ease;
+}  
+#highlight-card:hover{
+    transform: scale(1.05);
+}
+#course-card{
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.15);
+    transition: all 0.4s ease;
+}
+#course-card:hover{
+    transform: scale(1.05);
+}
